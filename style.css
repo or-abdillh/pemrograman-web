@@ -6,12 +6,20 @@
     margin: 0;
     padding: 0;
 }
-p {
-    color: salmon;
-    font-weight: 400;
+
+ul {
+    display: flex;
+    justify-content: center;
+    background: whitesmoke;
+    padding: 1rem 0;
 }
 
-hr {
-    background: #EEEEEE;
-    margin: 2rem 0;
+li {
+    margin-right: 5rem;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: .3s;
 }
