@@ -23,3 +23,63 @@ li a {
     font-size: 1.5rem;
     transition: .3s;
 }
+
+.container {
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.container .thumb{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid rgb(51, 35, 35);
+}
+
+button {
+    display: none;
+}
+
+.active {
+    left: 0!important;
+}
+
+#close {
+    display: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    ul {
+        display: inline-block;
+        background: whitesmoke;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        padding: 1rem 1.5rem;
+        transition: .3s ease-in-out;
+    }
+
+    li {
+        margin: 0 auto
+    }
+
+    button {
+        display: block;
+        margin: 1rem 2rem;
+        padding: .5rem 1rem;;
+    }
+    
+    #close {
+        display: inline;
+        cursor: pointer;
+    }
+  }
