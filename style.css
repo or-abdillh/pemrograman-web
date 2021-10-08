@@ -114,7 +114,7 @@ li a:hover {
     }
 
     .wrapper span {
-        margin-bottom: 1.5rem;
+        margin: 0 auto 1.5rem;
         min-width: 85%;
     }
   }
@@ -151,6 +151,8 @@ li a:hover {
     place-items: center;
     box-shadow: 3px 3px 5px #BBBBBB;
     transition: .3s;
+    font-weight: 500;
+    color: whitesmoke;
 }
 
 .wrapper span:hover {
@@ -168,5 +170,31 @@ li a:hover {
 
 /* Project  */
 .project-wrapper {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+.project-wrapper .project a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;    
+}
+
+.project-wrapper .project {
+    background: rgb(20, 206, 113);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px #BBBBBB;
+    text-align: center;
+    transition: .3s ease-in;
+}
+
+.project-wrapper .project small {
+    font-size: .85rem;
+    color: whitesmoke;
+}
+
+.project-wrapper .project:hover {
+    transform: translateY(-10px);
 }
